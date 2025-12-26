@@ -33,7 +33,7 @@ plot_with_line <- function(subject_data, subject_code) {
     scale_y_continuous(breaks = c(0, 1), limits = c(0, 1)) +
     labs(title = subject_name,
          x = "Odds Against Success",
-         y = "Willingness to support\nUS intervention") +
+         y = "Willingness to support\nUS military intervention") +
     theme_minimal() +
     theme(panel.grid = element_blank(),
           axis.line = element_line(color = "black"),
