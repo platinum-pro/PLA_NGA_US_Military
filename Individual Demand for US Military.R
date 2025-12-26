@@ -13,7 +13,7 @@ participant_names <- setNames(
   paste0("P", 1:12)
 )
 
-# Define colors for each participant (extending to 12 colors)
+# Define colors for each participant
 participant_colors <- setNames(
   c("#E41A1C", "#377EB8", "#4DAF4A", "#984EA3", "#FF7F00", "brown",
     "#A65628", "#F781BF", "#999999", "#66C2A5", "#FC8D62", "#8DA0CB"),
