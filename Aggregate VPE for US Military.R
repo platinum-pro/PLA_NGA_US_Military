@@ -19,7 +19,7 @@ bar_plot <- ggplot(data, aes(x = VPE, y = All, fill = VPE)) +
   geom_col(width = 0.7, show.legend = FALSE) +
   scale_fill_brewer(palette = "Set3") +
   labs(title = "",
-       x = "Likelihood of Successful Outcomes from US Military Intervention",
+       x = "Likelihood of successful suppression \nof regional violence (%)",
        y = "Proportion of respondents supporting \n US military intervention (%)") +
   theme_minimal() +
   theme(axis.text.x = element_text(angle = 45, hjust = 1, vjust = 1),
